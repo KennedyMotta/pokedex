@@ -2,6 +2,10 @@
 
 Pokédex interativa e responsiva para pesquisar Pokémon e consultar seus dados. A interface combina uma tela de campo, uma ficha informativa e controles inspirados em um videogame portátil.
 
+<p align="center">
+	<img src="./public/pokedex-preview.png" alt="Pokédex exibindo os dados e a sprite do Charizard" width="960" />
+</p>
+
 ## Funcionalidades
 
 - Pesquisar Pokémon por nome ou número da Pokédex Nacional.
