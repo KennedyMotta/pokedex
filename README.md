@@ -31,24 +31,16 @@ O Vite informa no terminal o endereço local para abrir no navegador.
 
 ## Scripts
 
-| Comando | Descrição |
-| --- | --- |
-| `npm run dev` | Inicia o servidor de desenvolvimento. |
-| `npm run build` | Verifica os tipos e gera a versão de produção em `dist/`. |
-| `npm run preview` | Serve localmente a versão gerada. |
-| `npm run lint` | Executa o ESLint. |
+| Comando           | Descrição                                                 |
+| ----------------- | --------------------------------------------------------- |
+| `npm run dev`     | Inicia o servidor de desenvolvimento.                     |
+| `npm run build`   | Verifica os tipos e gera a versão de produção em `dist/`. |
+| `npm run preview` | Serve localmente a versão gerada.                         |
+| `npm run lint`    | Executa o ESLint.                                         |
 
 ## API
 
 Os dados são consultados em `https://pokeapi.co/api/v2` usando Axios. Não é necessário configurar uma chave de API.
-
-## GitHub Pages
-
-O workflow em `.github/workflows/deploy.yml` publica automaticamente o conteúdo de `dist/` quando há um push para `main`.
-
-Em **Settings > Pages**, selecione **GitHub Actions** como origem do deploy. Acompanhe a publicação em **Actions**; ao concluir, a execução do workflow informa a URL do site.
-
-O Vite define automaticamente o caminho base para o nome do repositório durante o build no GitHub Actions.
 
 ## Estrutura do projeto
 
